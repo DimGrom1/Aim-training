@@ -12,6 +12,21 @@ body{
 }
 h1{
     font-size: 50px;
+    display: inline-block;
+    transition: 0.7s;
+}
+h1:hover{
+    transform: translateY(-100px);
+}
+button{
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    background: none;
 }
 h4{
     font-size: 24px;
@@ -19,13 +34,19 @@ h4{
     width: 50%;
     margin-top: 100px;
 }
+
 form{
     width: 900px;
     background: rgba(255, 255, 255, 0.8);
     height: 100vh;
     margin: auto;
     backdrop-filter: blur(10px);
-    display: none;
+    /* display: none; */
+    position: absolute;
+    left: calc((100% - 900px) / 2);
+    left: 50%;
+    transition: 0.9s;
+    transform: translate(-50%,-100%);
 }
 .start{
     font-size: 24px;
@@ -47,5 +68,17 @@ canvas{
 div a{
     color: black;
     font-size: 40px;
-
+    width: 200px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 30px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.555);
+    border: 2px solid #6bffa0;
+    transition: 0.7s;
+}
+div a:hover{
+    box-shadow: 3px 3px 0 #6bffa0;
+    background: white;
 }
