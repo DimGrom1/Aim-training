@@ -63,7 +63,7 @@ function startGame() {
     }
     if (mode == "accuracy") {
         best.style.display="none"
-        circles = 30
+        circles = 20
         timer.innerHTML = "Circles: " + circles;
         start.onclick = function () {
             accuracyMode()
@@ -182,6 +182,61 @@ reactionTraining.onclick = function (event) {
 button.onclick = function (event) {
     game.style.transform = "translate(-50%,-100%)"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
